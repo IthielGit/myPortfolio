@@ -35,13 +35,13 @@ body::before{
      top: 0;
      height: 100vh;
      z-index: -2;
-     animation: increase 30s linear 15ms infinite;
-     transition: all 0.2s ease-in-out;
+     animation: increase 10s alternate-reverse infinite;
+     transition: all 0.3s ease-in-out;
 }
 
 @keyframes increase{
-    0%{transform: scale(1)}
-    100%{transform: scale(1.4)}
+
+    100%{transform: scale(1.1)}
 
 }
 
@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5{
 #header h1{
     font-size: 80px;
     font-weight: bold;
-    color: #087990;
+    color: #1192ac;
     margin: 0;
     margin-top: -5%;
     margin-left: 10%;
@@ -77,13 +77,12 @@ h1,h2,h3,h4,h5{
     line-height: 1.5;
     font-weight: 700;
     transition: ease-in-out 0.3s;
-    animation: changing 2s alternate-reverse infinite;
+    animation: changing 1.7s alternate-reverse infinite;
 }
 
 @keyframes changing {
     100%{
-        color: #dadada00;
-        
+        color: #1894c575;
     }
 }
 
@@ -229,7 +228,7 @@ h1,h2,h3,h4,h5{
 
 .MesProjets .icon-box:hover{
     background:#000000;
-    transform: scale(1.06);
+    transform: scale(1.03);
 }
 
 .MesProjets .icon-box:hover h4{
@@ -251,9 +250,7 @@ h1,h2,h3,h4,h5{
 }
 /*animation mes projets*/
 .middleMesProjets:hover .MesProjets:hover .card-title h2{
-    font-weight: 300;
-    font-size: 46px;
-    padding: 0px 10px;
+
     transition: all ease-in-out 0.2s;
 }
 
